@@ -5,7 +5,10 @@
                 "id": 1,
                 "channel": "moderno",
                 "countries": [
-                    "cr"
+                    {
+                        "name": "cr",
+                        "flag": "../flags/cr.svg"
+                    }
                 ],
                 "budget": 964
             },
@@ -13,9 +16,18 @@
                 "id": 2,
                 "channel": "moderno",
                 "countries": [
-                    "gt",
-                    "sv",
-                    "ni"
+                    {
+                        "name": "gt",
+                        "flag": "../flags/gt.svg"
+                    },
+                    {
+                        "name": "sv",
+                        "flag": "../flags/sv.svg"
+                    },
+                    {
+                        "name": "ni",
+                        "flag": "../flags/ni.svg"
+                    }
                 ],
                 "budget": 1610
             },
@@ -23,7 +35,10 @@
                 "id": 3,
                 "channel": "tradicional",
                 "countries": [
-                    "cr"
+                    {
+                        "name": "cr",
+                        "flag": "../flags/cr.svg"
+                    }
                 ],
                 "budget": 420
             },
@@ -31,9 +46,18 @@
                 "id": 4,
                 "channel": "tradicional",
                 "countries": [
-                    "gt",
-                    "sv",
-                    "ni"
+                    {
+                        "name": "gt",
+                        "flag": "../flags/gt.svg"
+                    },
+                    {
+                        "name": "sv",
+                        "flag": "../flags/sv.svg"
+                    },
+                    {
+                        "name": "ni",
+                        "flag": "../flags/ni.svg"
+                    }
                 ],
                 "budget": 650
             }
@@ -45,7 +69,10 @@
                 "id": 5,
                 "channel": "moderno",
                 "countries": [
-                    "cr"
+                    {
+                        "name": "cr",
+                        "flag": "../flags/cr.svg"
+                    }
                 ],
                 "budget": 415
             },
@@ -53,9 +80,18 @@
                 "id": 6,
                 "channel": "moderno",
                 "countries": [
-                    "gt",
-                    "sv",
-                    "ni"
+                    {
+                        "name": "gt",
+                        "flag": "../flags/gt.svg"
+                    },
+                    {
+                        "name": "sv",
+                        "flag": "../flags/sv.svg"
+                    },
+                    {
+                        "name": "ni",
+                        "flag": "../flags/ni.svg"
+                    }
                 ],
                 "budget": 430
             },
@@ -63,7 +99,10 @@
                 "id": 7,
                 "channel": "tradicional",
                 "countries": [
-                    "cr"
+                    {
+                        "name": "cr",
+                        "flag": "../flags/cr.svg"
+                    }
                 ],
                 "budget": 260
             },
@@ -71,9 +110,18 @@
                 "id": 8,
                 "channel": "tradicional",
                 "countries": [
-                    "gt",
-                    "sv",
-                    "ni"
+                    {
+                        "name": "gt",
+                        "flag": "../flags/gt.svg"
+                    },
+                    {
+                        "name": "sv",
+                        "flag": "../flags/sv.svg"
+                    },
+                    {
+                        "name": "ni",
+                        "flag": "../flags/ni.svg"
+                    }
                 ],
                 "budget": 275
             }
@@ -85,7 +133,10 @@
                 "id": 9,
                 "channel": "moderno",
                 "countries": [
-                    "cr"
+                    {
+                        "name": "cr",
+                        "flag": "../flags/cr.svg"
+                    }
                 ],
                 "budget": 4200
             },
@@ -93,9 +144,18 @@
                 "id": 10,
                 "channel": "moderno",
                 "countries": [
-                    "gt",
-                    "sv",
-                    "ni"
+                    {
+                        "name": "gt",
+                        "flag": "../flags/gt.svg"
+                    },
+                    {
+                        "name": "sv",
+                        "flag": "../flags/sv.svg"
+                    },
+                    {
+                        "name": "ni",
+                        "flag": "../flags/ni.svg"
+                    }
                 ],
                 "budget": 5600
             },
@@ -103,7 +163,10 @@
                 "id": 11,
                 "channel": "tradicional",
                 "countries": [
-                    "cr"
+                    {
+                        "name": "cr",
+                        "flag": "../flags/cr.svg"
+                    }
                 ],
                 "budget": 450
             },
@@ -111,9 +174,18 @@
                 "id": 12,
                 "channel": "tradicional",
                 "countries": [
-                    "gt",
-                    "sv",
-                    "ni"
+                    {
+                        "name": "gt",
+                        "flag": "../flags/gt.svg"
+                    },
+                    {
+                        "name": "sv",
+                        "flag": "../flags/sv.svg"
+                    },
+                    {
+                        "name": "ni",
+                        "flag": "../flags/ni.svg"
+                    }
                 ],
                 "budget": 480
             }
@@ -125,7 +197,10 @@
                 "id": 13,
                 "channel": "tradicional",
                 "countries": [
-                    "cr"
+                    {
+                        "name": "cr",
+                        "flag": "../flags/cr.svg"
+                    }
                 ],
                 "budget": 210
             },
@@ -133,9 +208,18 @@
                 "id": 14,
                 "channel": "tradicional",
                 "countries": [
-                    "gt",
-                    "sv",
-                    "ni"
+                    {
+                        "name": "gt",
+                        "flag": "../flags/gt.svg"
+                    },
+                    {
+                        "name": "sv",
+                        "flag": "../flags/sv.svg"
+                    },
+                    {
+                        "name": "ni",
+                        "flag": "../flags/ni.svg"
+                    }
                 ],
                 "budget": 225
             }
@@ -147,7 +231,10 @@
                 "id": 15,
                 "channel": "moderno",
                 "countries": [
-                    "cr"
+                    {
+                        "name": "cr",
+                        "flag": "../flags/cr.svg"
+                    }
                 ],
                 "budget": 4300
             },
@@ -155,9 +242,18 @@
                 "id": 16,
                 "channel": "moderno",
                 "countries": [
-                    "gt",
-                    "sv",
-                    "ni"
+                    {
+                        "name": "gt",
+                        "flag": "../flags/gt.svg"
+                    },
+                    {
+                        "name": "sv",
+                        "flag": "../flags/sv.svg"
+                    },
+                    {
+                        "name": "ni",
+                        "flag": "../flags/ni.svg"
+                    }
                 ],
                 "budget": 5700
             },
@@ -165,7 +261,10 @@
                 "id": 17,
                 "channel": "tradicional",
                 "countries": [
-                    "cr"
+                    {
+                        "name": "cr",
+                        "flag": "../flags/cr.svg"
+                    }
                 ],
                 "budget": 2800
             },
@@ -173,9 +272,18 @@
                 "id": 18,
                 "channel": "tradicional",
                 "countries": [
-                    "gt",
-                    "sv",
-                    "ni"
+                    {
+                        "name": "gt",
+                        "flag": "../flags/gt.svg"
+                    },
+                    {
+                        "name": "sv",
+                        "flag": "../flags/sv.svg"
+                    },
+                    {
+                        "name": "ni",
+                        "flag": "../flags/ni.svg"
+                    }
                 ],
                 "budget": 4000
             }
