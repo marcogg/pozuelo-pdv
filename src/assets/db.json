@@ -1,0 +1,184 @@
+[
+    {
+        "PuntoPozuelo": [
+            {
+                "id": 1,
+                "channel": "moderno",
+                "countries": [
+                    "cr"
+                ],
+                "budget": 964
+            },
+            {
+                "id": 2,
+                "channel": "moderno",
+                "countries": [
+                    "gt",
+                    "sv",
+                    "ni"
+                ],
+                "budget": 1610
+            },
+            {
+                "id": 3,
+                "channel": "tradicional",
+                "countries": [
+                    "cr"
+                ],
+                "budget": 420
+            },
+            {
+                "id": 4,
+                "channel": "tradicional",
+                "countries": [
+                    "gt",
+                    "sv",
+                    "ni"
+                ],
+                "budget": 650
+            }
+        ]
+    },
+    {
+        "DescubreMundoPozuelo": [
+            {
+                "id": 5,
+                "channel": "moderno",
+                "countries": [
+                    "cr"
+                ],
+                "budget": 415
+            },
+            {
+                "id": 6,
+                "channel": "moderno",
+                "countries": [
+                    "gt",
+                    "sv",
+                    "ni"
+                ],
+                "budget": 430
+            },
+            {
+                "id": 7,
+                "channel": "tradicional",
+                "countries": [
+                    "cr"
+                ],
+                "budget": 260
+            },
+            {
+                "id": 8,
+                "channel": "tradicional",
+                "countries": [
+                    "gt",
+                    "sv",
+                    "ni"
+                ],
+                "budget": 275
+            }
+        ]
+    },
+    {
+        "PozueloSens": [
+            {
+                "id": 9,
+                "channel": "moderno",
+                "countries": [
+                    "cr"
+                ],
+                "budget": 4200
+            },
+            {
+                "id": 10,
+                "channel": "moderno",
+                "countries": [
+                    "gt",
+                    "sv",
+                    "ni"
+                ],
+                "budget": 5600
+            },
+            {
+                "id": 11,
+                "channel": "tradicional",
+                "countries": [
+                    "cr"
+                ],
+                "budget": 450
+            },
+            {
+                "id": 12,
+                "channel": "tradicional",
+                "countries": [
+                    "gt",
+                    "sv",
+                    "ni"
+                ],
+                "budget": 480
+            }
+        ]
+    },
+    {
+        "PromotoresPozuelo": [
+            {
+                "id": 13,
+                "channel": "tradicional",
+                "countries": [
+                    "cr"
+                ],
+                "budget": 210
+            },
+            {
+                "id": 14,
+                "channel": "tradicional",
+                "countries": [
+                    "gt",
+                    "sv",
+                    "ni"
+                ],
+                "budget": 225
+            }
+        ]
+    },
+    {
+        "PozueloLab": [
+            {
+                "id": 15,
+                "channel": "moderno",
+                "countries": [
+                    "cr"
+                ],
+                "budget": 4300
+            },
+            {
+                "id": 16,
+                "channel": "moderno",
+                "countries": [
+                    "gt",
+                    "sv",
+                    "ni"
+                ],
+                "budget": 5700
+            },
+            {
+                "id": 17,
+                "channel": "tradicional",
+                "countries": [
+                    "cr"
+                ],
+                "budget": 2800
+            },
+            {
+                "id": 18,
+                "channel": "tradicional",
+                "countries": [
+                    "gt",
+                    "sv",
+                    "ni"
+                ],
+                "budget": 4000
+            }
+        ]
+    }
+]
