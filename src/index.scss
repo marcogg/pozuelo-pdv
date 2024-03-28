@@ -142,3 +142,45 @@ text-red {
     border-radius: 20px;
   }
 }
+
+// cards
+.projectCard{
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  & .flag-icon{
+    border-radius: 100%;
+    margin-right: 10px;
+    width: 36px;
+  }
+
+  & .quantity{
+    width: 40%;
+    padding:5px;
+    max-height: 40px;
+    font-size: clamp(14pt, 1.5rem, 20pt);
+    text-align: center;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+  }
+
+  & .btn-add {
+    background-color: $grey;
+    color: white;
+    width: 25%;
+    font-size: clamp(12pt, 1.25rem, 18pt);
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+  & .btn-remove {
+    background-color: $pozueloRed;
+    color: white;
+    width: 25%;
+    font-size: clamp(12pt, 1.25rem, 18pt);
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+  }
+
+}

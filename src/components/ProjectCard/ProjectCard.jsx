@@ -1,30 +1,28 @@
-import { useState } from 'react'
+/* eslint-disable react/prop-types */
+import { useInitiativeContext } from '../../context/InitiativesContext'
 
-const ProjectCard = (channel, countries, price) => {
+const ProjectCard = ({ channel = '', countries = '', price = '0' }) => {
 
-  const [budgetAmount, setBudgetAmount] = useState(0)
-
-  const add = (cost) => {
-    let initialPrice = 0
-    let adding = initialPrice += cost
-    setBudgetAmount(adding)
-  }
+  const context = useInitiativeContext()
 
   return (
     <>
-      <div className="card" style={{ width: '18rem' }}>
+
+      <div className="card projectCard" style={{ width: '18rem' }}>
         <img src="../../placeholder.svg" className="card-img-top" />
         <div className="card-body">
-          <h5 className="card-title">{`${channel}`}</h5>
+          <h5 className="card-title">{`${channel}`.toUpperCase()}</h5>
+          <p className="card-text">{`Costo unitario: $${price}`}</p>
           {
-            countries.forEach(country => {
-              <img src={`${country.flag}`} className='img-fluid' width={100} />
-            })
+            countries.map((country, index) => (
+              <img key={index} src={`${country.flag}`} className='img-fluid flag-icon my-3' />
+            ))
           }
-          <p className="card-text">{`${price}`}.</p>
-          <a href="#" className="btn btn-primary">Go somewhere</a>
-          <button className="add" onClick={add(price)}>+</button>
-          <p>{`$${price}`}</p>
+          <div className='row justify-content-between align-items-center my-3'>
+            <button className="btn btn-remove">-1</button>
+            <p className="quantity">{context.eachCardAmount}</p>
+            <button className="btn btn-add">+1</button>
+          </div>
         </div>
       </div>
 

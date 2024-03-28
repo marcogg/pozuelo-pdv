@@ -1,13 +1,11 @@
 import { Link } from "react-router-dom"
-import { useState } from "react"
-import initiativesList from '../assets/db.json'
 import ProjectCard from "../components/ProjectCard/ProjectCard"
+import { useInitiativeContext } from '../context/InitiativesContext'
 
 const Home = () => {
 
-  const PuntoPozuelo = initiativesList[0].PuntoPozuelo
-  const [budgetAmount, setbudgetAmount] = useState(74500)
-  const [investedAmount, setinvestedAmount] = useState(0)
+  const context = useInitiativeContext()
+
 
   return (
     <>
@@ -37,15 +35,15 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section >
+      </section>
       {/* End> Header */}
       {/* Begin Counter */}
       <section className="summary mt-5">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-8 box">
-              <h3 className="text-center poppins-light">Presupuesto Disponible: <span className="poppins-bold">{`$${budgetAmount}`}</span></h3>
-              <h4 className="text-center poppins-light">Presupuesto Invertido: <span className="poppins-bold">{`$${investedAmount}`}</span></h4>
+              <h3 className="text-center poppins-light">Presupuesto Disponible: <span className="poppins-bold">{`$${context.budgetAmount}`}</span></h3>
+              <h4 className="text-center poppins-light">Presupuesto Invertido: <span className="poppins-bold">{`$${context.investedAmount}`}</span></h4>
             </div>
           </div>
         </div>
@@ -54,21 +52,77 @@ const Home = () => {
       {/* Begin: Projects */}
       <section>
         {/* Punto Pozuelo */}
-        <div className="container">
+        <div className="container my-3 py-5">
           <div className="row">
             <h3 className="text-center mt-5 poppins-bold">Punto Pozuelo</h3>
           </div>
-          <div className="row">
+          <div className="row justify-content-between">
             {
-              PuntoPozuelo.forEach(initiative => {
-                <ProjectCard key={initiative.id} channel={initiative.channel} country={initiative.countries} price={initiative.budget} />
-                console.log('OK')
-              })
+              context.PuntoPozuelo.map((initiative) => (
+                <ProjectCard key={initiative.id} channel={initiative.channel} countries={initiative.countries} price={initiative.budget} />
+              )
+              )
             }
           </div>
         </div>
+        {/* Descubre Mundo Pozuelo */}
+        <div className="container my-3 py-5">
+          <div className="row">
+            <h3 className="text-center mt-5 poppins-bold">Descubre Mundo Pozuelo</h3>
+          </div>
+          <div className="row justify-content-between">
+            {
+              context.PuntoPozuelo.map((initiative) => (
+                <ProjectCard key={initiative.id} channel={initiative.channel} countries={initiative.countries} price={initiative.budget} />
+              )
+              )
+            }
+          </div>
+        </div>
+        {/* Pozuelo Sens */}
+        <div className="container my-3 py-5">
+          <div className="row">
+            <h3 className="text-center mt-5 poppins-bold">Pozuelo Sens</h3>
+          </div>
+          <div className="row justify-content-between">
+            {
+              context.PozueloSens.map((initiative) => (
+                <ProjectCard key={initiative.id} channel={initiative.channel} countries={initiative.countries} price={initiative.budget} />
+              )
+              )
+            }
+          </div>
+        </div>
+        {/* Promotores Pozuelo */}
+        <div className="container my-3 py-5">
+          <div className="row">
+            <h3 className="text-center mt-5 poppins-bold">Promotores Pozuelo</h3>
+          </div>
+          <div className="row justify-content-between">
+            {
+              context.PromotoresPozuelo.map((initiative) => (
+                <ProjectCard key={initiative.id} channel={initiative.channel} countries={initiative.countries} price={initiative.budget} />
+              )
+              )
+            }
+          </div>
+        </div>
+        {/* Pozuelo Lab*/}
+        <div className="container my-3 py-5">
+          <div className="row">
+            <h3 className="text-center mt-5 poppins-bold">Pozuelo Lab</h3>
+          </div>
+          <div className="row justify-content-between">
+            {
+              context.PozueloLab.map((initiative) => (
+                <ProjectCard key={initiative.id} channel={initiative.channel} countries={initiative.countries} price={initiative.budget} />
+              )
+              )
+            }
+          </div>
+        </div>
+        {/* End: Projects */}
       </section>
-      {/* End: Projects */}
     </>
   )
 }
