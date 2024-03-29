@@ -1,9 +1,8 @@
 /* eslint-disable react/prop-types */
-import { useInitiativeContext } from '../../context/InitiativesContext'
+
+import CounterCard from '../CounterCard/CounterCard'
 
 const ProjectCard = ({ channel = '', countries = '', price = '0' }) => {
-
-  const context = useInitiativeContext()
 
   return (
     <>
@@ -18,11 +17,8 @@ const ProjectCard = ({ channel = '', countries = '', price = '0' }) => {
               <img key={index} src={`${country.flag}`} className='img-fluid flag-icon my-3' />
             ))
           }
-          <div className='row justify-content-between align-items-center my-3'>
-            <button className="btn btn-remove">-1</button>
-            <p className="quantity">{context.eachCardAmount}</p>
-            <button className="btn btn-add">+1</button>
-          </div>
+          {/* Counter */}
+          <CounterCard />
         </div>
       </div>
 

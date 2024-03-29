@@ -54,7 +54,7 @@ const Home = () => {
         {/* Punto Pozuelo */}
         <div className="container my-3 py-5">
           <div className="row">
-            <h3 className="text-center mt-5 poppins-bold">Punto Pozuelo</h3>
+            <h2 className="text-center my-5 poppins-bold">Punto Pozuelo</h2>
           </div>
           <div className="row justify-content-between">
             {
@@ -68,7 +68,7 @@ const Home = () => {
         {/* Descubre Mundo Pozuelo */}
         <div className="container my-3 py-5">
           <div className="row">
-            <h3 className="text-center mt-5 poppins-bold">Descubre Mundo Pozuelo</h3>
+            <h2 className="text-center my-5 poppins-bold">Descubre Mundo Pozuelo</h2>
           </div>
           <div className="row justify-content-between">
             {
@@ -82,7 +82,7 @@ const Home = () => {
         {/* Pozuelo Sens */}
         <div className="container my-3 py-5">
           <div className="row">
-            <h3 className="text-center mt-5 poppins-bold">Pozuelo Sens</h3>
+            <h2 className="text-center my-5 poppins-bold">Pozuelo Sens</h2>
           </div>
           <div className="row justify-content-between">
             {
@@ -96,9 +96,9 @@ const Home = () => {
         {/* Promotores Pozuelo */}
         <div className="container my-3 py-5">
           <div className="row">
-            <h3 className="text-center mt-5 poppins-bold">Promotores Pozuelo</h3>
+            <h2 className="text-center my-5 poppins-bold">Promotores Pozuelo</h2>
           </div>
-          <div className="row justify-content-between">
+          <div className="row justify-content-around">
             {
               context.PromotoresPozuelo.map((initiative) => (
                 <ProjectCard key={initiative.id} channel={initiative.channel} countries={initiative.countries} price={initiative.budget} />
@@ -110,7 +110,7 @@ const Home = () => {
         {/* Pozuelo Lab*/}
         <div className="container my-3 py-5">
           <div className="row">
-            <h3 className="text-center mt-5 poppins-bold">Pozuelo Lab</h3>
+            <h2 className="text-center my-5 poppins-bold">Pozuelo Lab</h2>
           </div>
           <div className="row justify-content-between">
             {
