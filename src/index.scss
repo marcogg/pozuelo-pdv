@@ -130,8 +130,32 @@ h6 {
   color: $grey
 }
 
-text-red {
+.text-red {
   color: $pozueloRed
+}
+
+.text-grey{
+color: $grey
+}
+
+.bg-grey{
+  background:linear-gradient(180deg, #fdf0f0, #f7f7f0)
+}
+
+.navbar{
+  font-size: clamp(16pt, 1.25rem, 19pt);
+  background-color: transparent !important;
+  backdrop-filter: blur(100px) brightness(180%);
+  height: clamp(50px, 5vw,80px) ;
+  & .budget{
+    margin-bottom: 0;
+    &.available{
+      color:grey;
+    }
+    &.invested{
+      color:$pozueloRed
+    }
+  }
 }
 
 .summary {
@@ -145,7 +169,14 @@ text-red {
 
 // cards
 .projectCard{
+  margin-top: 30px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
+  border: none;
+  font-family: "Poppins", sans-serif;
+  & .render{
+    margin-top: 15px;
+  }
+
   & .flag-icon{
     border-radius: 100%;
     margin-right: 10px;

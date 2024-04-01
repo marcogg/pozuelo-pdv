@@ -4,289 +4,351 @@
             {
                 "id": 1,
                 "channel": "moderno",
-                "countries": [
-                    {
-                        "name": "cr",
-                        "flag": "../flags/cr.svg"
-                    }
-                ],
-                "budget": 964
+                "name": "cr",
+                "flag": "../flags/cr.svg",
+                "budget": 964,
+                "render": "../pp_moderno.jpg",
+                "amount": 0
             },
             {
                 "id": 2,
                 "channel": "moderno",
-                "countries": [
-                    {
-                        "name": "gt",
-                        "flag": "../flags/gt.svg"
-                    },
-                    {
-                        "name": "sv",
-                        "flag": "../flags/sv.svg"
-                    },
-                    {
-                        "name": "ni",
-                        "flag": "../flags/ni.svg"
-                    }
-                ],
-                "budget": 1610
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 1610,
+                "render": "../pp_moderno.jpg",
+                "amount": 0
             },
             {
                 "id": 3,
-                "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "cr",
-                        "flag": "../flags/cr.svg"
-                    }
-                ],
-                "budget": 420
+                "channel": "moderno",
+                "name": "sv",
+                "flag": "../flags/sv.svg",
+                "budget": 1610,
+                "render": "../pp_moderno.jpg",
+                "amount": 0
             },
             {
                 "id": 4,
+                "channel": "moderno",
+                "name": "ni",
+                "flag": "../flags/ni.svg",
+                "budget": 1610,
+                "render": "../pp_moderno.jpg",
+                "amount": 0
+            },
+            {
+                "id": 5,
                 "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "gt",
-                        "flag": "../flags/gt.svg"
-                    },
-                    {
-                        "name": "sv",
-                        "flag": "../flags/sv.svg"
-                    },
-                    {
-                        "name": "ni",
-                        "flag": "../flags/ni.svg"
-                    }
-                ],
-                "budget": 650
+                "name": "cr",
+                "flag": "../flags/cr.svg",
+                "budget": 420,
+                "render": "../pp_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 6,
+                "channel": "tradicional",
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 650,
+                "render": "../pp_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 7,
+                "channel": "tradicional",
+                "name": "sv",
+                "flag": "../flags/sv.svg",
+                "budget": 650,
+                "render": "../pp_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 8,
+                "channel": "tradicional",
+                "name": "ni",
+                "flag": "../flags/ni.svg",
+                "budget": 650,
+                "render": "../pp_tradicional.jpg",
+                "amount": 0
             }
         ]
     },
     {
         "DescubreMundoPozuelo": [
             {
-                "id": 5,
+                "id": 9,
                 "channel": "moderno",
-                "countries": [
-                    {
-                        "name": "cr",
-                        "flag": "../flags/cr.svg"
-                    }
-                ],
-                "budget": 415
+                "name": "cr",
+                "flag": "../flags/cr.svg",
+                "budget": 415,
+                "render": "../dmp_moderno.jpg",
+                "amount": 0
             },
             {
-                "id": 6,
+                "id": 10,
                 "channel": "moderno",
-                "countries": [
-                    {
-                        "name": "gt",
-                        "flag": "../flags/gt.svg"
-                    },
-                    {
-                        "name": "sv",
-                        "flag": "../flags/sv.svg"
-                    },
-                    {
-                        "name": "ni",
-                        "flag": "../flags/ni.svg"
-                    }
-                ],
-                "budget": 430
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 430,
+                "render": "../dmp_moderno.jpg",
+                "amount": 0
             },
             {
-                "id": 7,
-                "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "cr",
-                        "flag": "../flags/cr.svg"
-                    }
-                ],
-                "budget": 260
+                "id": 11,
+                "channel": "moderno",
+                "name": "sv",
+                "flag": "../flags/sv.svg",
+                "budget": 430,
+                "render": "../dmp_moderno.jpg",
+                "amount": 0
             },
             {
-                "id": 8,
+                "id": 12,
+                "channel": "moderno",
+                "name": "ni",
+                "flag": "../flags/ni.svg",
+                "budget": 430,
+                "render": "../dmp_moderno.jpg",
+                "amount": 0
+            },
+            {
+                "id": 13,
                 "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "gt",
-                        "flag": "../flags/gt.svg"
-                    },
-                    {
-                        "name": "sv",
-                        "flag": "../flags/sv.svg"
-                    },
-                    {
-                        "name": "ni",
-                        "flag": "../flags/ni.svg"
-                    }
-                ],
-                "budget": 275
+                "name": "cr",
+                "flag": "../flags/cr.svg",
+                "budget": 260,
+                "render": "../dmp_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 14,
+                "channel": "tradicional",
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 275,
+                "render": "../dmp_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 15,
+                "channel": "tradicional",
+                "name": "sv",
+                "flag": "../flags/sv.svg",
+                "budget": 275,
+                "render": "../dmp_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 16,
+                "channel": "tradicional",
+                "name": "ni",
+                "flag": "../flags/ni.svg",
+                "budget": 275,
+                "render": "../dmp_tradicional.jpg",
+                "amount": 0
             }
         ]
     },
     {
         "PozueloSens": [
             {
-                "id": 9,
+                "id": 17,
                 "channel": "moderno",
-                "countries": [
-                    {
-                        "name": "cr",
-                        "flag": "../flags/cr.svg"
-                    }
-                ],
-                "budget": 4200
+                "name": "cr",
+                "flag": "../flags/cr.svg",
+                "budget": 4200,
+                "render": "../sens_moderno.jpg",
+                "amount": 0
             },
             {
-                "id": 10,
+                "id": 18,
                 "channel": "moderno",
-                "countries": [
-                    {
-                        "name": "gt",
-                        "flag": "../flags/gt.svg"
-                    },
-                    {
-                        "name": "sv",
-                        "flag": "../flags/sv.svg"
-                    },
-                    {
-                        "name": "ni",
-                        "flag": "../flags/ni.svg"
-                    }
-                ],
-                "budget": 5600
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 5600,
+                "render": "../sens_moderno.jpg",
+                "amount": 0
             },
             {
-                "id": 11,
-                "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "cr",
-                        "flag": "../flags/cr.svg"
-                    }
-                ],
-                "budget": 450
+                "id": 19,
+                "channel": "moderno",
+                "name": "sv",
+                "flag": "../flags/sv.svg",
+                "budget": 5600,
+                "render": "../sens_moderno.jpg",
+                "amount": 0
             },
             {
-                "id": 12,
+                "id": 20,
+                "channel": "moderno",
+                "name": "ni",
+                "flag": "../flags/ni.svg",
+                "budget": 5600,
+                "render": "../sens_moderno.jpg",
+                "amount": 0
+            },
+            {
+                "id": 21,
                 "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "gt",
-                        "flag": "../flags/gt.svg"
-                    },
-                    {
-                        "name": "sv",
-                        "flag": "../flags/sv.svg"
-                    },
-                    {
-                        "id": 240,
-                        "name": "ni",
-                        "flag": "../flags/ni.svg"
-                    }
-                ],
-                "budget": 480
+                "name": "cr",
+                "flag": "../flags/cr.svg",
+                "budget": 450,
+                "render": "../sens_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 22,
+                "channel": "tradicional",
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 480,
+                "render": "../sens_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 23,
+                "channel": "tradicional",
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 480,
+                "render": "../sens_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 24,
+                "channel": "tradicional",
+                "name": "sv",
+                "flag": "../flags/sv.svg",
+                "budget": 480,
+                "render": "../sens_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 25,
+                "channel": "tradicional",
+                "name": "ni",
+                "flag": "../flags/ni.svg",
+                "budget": 480,
+                "render": "../sens_tradicional.jpg",
+                "amount": 0
             }
         ]
     },
     {
         "PromotoresPozuelo": [
             {
-                "id": 13,
+                "id": 26,
                 "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "cr",
-                        "flag": "../flags/cr.svg"
-                    }
-                ],
-                "budget": 210
+                "name": "cr",
+                "flag": "../flags/cr.svg",
+                "budget": 210,
+                "render": "../promPozuelo_tradicional.jpg",
+                "amount": 0
             },
             {
-                "id": 14,
+                "id": 27,
                 "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "gt",
-                        "flag": "../flags/gt.svg"
-                    },
-                    {
-                        "name": "sv",
-                        "flag": "../flags/sv.svg"
-                    },
-                    {
-                        "name": "ni",
-                        "flag": "../flags/ni.svg"
-                    }
-                ],
-                "budget": 225
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 225,
+                "render": "../promPozuelo_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 28,
+                "channel": "tradicional",
+                "name": "sv",
+                "flag": "../flags/sv.svg",
+                "budget": 225,
+                "render": "../promPozuelo_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 29,
+                "channel": "tradicional",
+                "name": "ni",
+                "flag": "../flags/ni.svg",
+                "budget": 225,
+                "render": "../promPozuelo_tradicional.jpg",
+                "amount": 0
             }
         ]
     },
     {
         "PozueloLab": [
             {
-                "id": 15,
+                "id": 30,
                 "channel": "moderno",
-                "countries": [
-                    {
-                        "name": "cr",
-                        "flag": "../flags/cr.svg"
-                    }
-                ],
-                "budget": 4300
+                "name": "cr",
+                "flag": "../flags/cr.svg",
+                "budget": 4300,
+                "render": "../pl_moderno.jpg",
+                "amount": 0
             },
             {
-                "id": 16,
+                "id": 31,
                 "channel": "moderno",
-                "countries": [
-                    {
-                        "name": "gt",
-                        "flag": "../flags/gt.svg"
-                    },
-                    {
-                        "name": "sv",
-                        "flag": "../flags/sv.svg"
-                    },
-                    {
-                        "name": "ni",
-                        "flag": "../flags/ni.svg"
-                    }
-                ],
-                "budget": 5700
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 5700,
+                "render": "../pl_moderno.jpg",
+                "amount": 0
             },
             {
-                "id": 17,
-                "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "cr",
-                        "flag": "../flags/cr.svg"
-                    }
-                ],
-                "budget": 2800
+                "id": 32,
+                "channel": "moderno",
+                "name": "sv",
+                "flag": "../flags/sv.svg",
+                "budget": 5700,
+                "render": "../pl_moderno.jpg",
+                "amount": 0
             },
             {
-                "id": 18,
+                "id": 33,
+                "channel": "moderno",
+                "name": "ni",
+                "flag": "../flags/ni.svg",
+                "budget": 5700,
+                "render": "../pl_moderno.jpg",
+                "amount": 0
+            },
+            {
+                "id": 34,
                 "channel": "tradicional",
-                "countries": [
-                    {
-                        "name": "gt",
-                        "flag": "../flags/gt.svg"
-                    },
-                    {
-                        "name": "sv",
-                        "flag": "../flags/sv.svg"
-                    },
-                    {
-                        "name": "ni",
-                        "flag": "../flags/ni.svg"
-                    }
-                ],
-                "budget": 4000
+                "name": "cr",
+                "flag": "../flags/cr.svg",
+                "budget": 2800,
+                "render": "../pl_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 35,
+                "channel": "tradicional",
+                "name": "gt",
+                "flag": "../flags/gt.svg",
+                "budget": 4000,
+                "render": "../pl_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 36,
+                "channel": "tradicional",
+                "name": "sv",
+                "flag": "../flags/sv.svg",
+                "budget": 4000,
+                "render": "../pl_tradicional.jpg",
+                "amount": 0
+            },
+            {
+                "id": 37,
+                "channel": "tradicional",
+                "name": "ni",
+                "flag": "../flags/ni.svg",
+                "budget": 4000,
+                "render": "../pl_tradicional.jpg",
+                "amount": 0
             }
         ]
     }

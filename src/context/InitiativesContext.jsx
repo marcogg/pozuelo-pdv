@@ -3,10 +3,11 @@ import initiativesList from '../assets/db.json'
 
 const InitiativeContext = createContext()
 
-function InitiativesProvider(props) {
+// eslint-disable-next-line react/prop-types
+function InitiativesProvider({ ...props }) {
     const [budgetAmount, setBudgetAmount] = useState(74500)
     const [investedAmount, setInvestedAmount] = useState(0)
-    const [selectedElements, setSelectedElements] = useState({})
+    const [selectedElements, setSelectedElements] = useState([])
     const [amountSelectedElements, setAmountSelectedElements] = useState(0)
 
     const PuntoPozuelo = initiativesList[0].PuntoPozuelo
@@ -44,4 +45,5 @@ const useInitiativeContext = () => {
     return context
 }
 
+// eslint-disable-next-line react-refresh/only-export-components
 export { InitiativesProvider, useInitiativeContext }
