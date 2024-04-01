@@ -13,7 +13,7 @@ const Home = () => {
 
       <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-bottom align-items-center">
         <div className="container">
-          <Link className="navbar-brand" to={'/'}><img src='./../pozueloPropelland.svg' width={230} className="mx-5" /></Link>
+          <Link className="navbar-brand" to={'/'}><img src='./../pozueloPropelland.svg' width={230} className="mx-5 logo" /></Link>
           {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button> */}
@@ -27,7 +27,7 @@ const Home = () => {
       <section className="header">
         <div className="container">
           <div className="row justify-content-center mt-5 align-items-center">
-            <div className="col-6">
+            <div className="col-10 col-md-8 col-lg-8">
               <h1 className="text-center">Controla el presupuesto </h1>
               <h4 className="text-center poppins-light">de las iniciativas Pozuelo en Punto de Venta</h4>
             </div>
@@ -59,7 +59,7 @@ const Home = () => {
           <div className="row">
             <h2 className="text-center mt-5 poppins-bold">Punto Pozuelo</h2>
           </div>
-          <div className="row justify-content-between">
+          <div className="row justify-content-evenly">
             {
               context.PuntoPozuelo.map((initiative, index) => (
                 <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
@@ -74,9 +74,9 @@ const Home = () => {
             <div className="row">
               <h2 className="text-center mt-5 poppins-bold">Descubre Mundo Pozuelo</h2>
             </div>
-            <div className="row justify-content-between">
+            <div className="row justify-content-evenly">
               {
-                context.PuntoPozuelo.map((initiative, index) => (
+                context.DescubreMundoPozuelo.map((initiative, index) => (
                   <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
                 )
                 )
@@ -89,7 +89,7 @@ const Home = () => {
           <div className="row">
             <h2 className="text-center mt-5 poppins-bold">Pozuelo Sens</h2>
           </div>
-          <div className="row justify-content-between">
+          <div className="row justify-content-evenly">
             {
               context.PozueloSens.map((initiative, index) => (
                 <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
@@ -104,7 +104,7 @@ const Home = () => {
             <div className="row">
               <h2 className="text-center mt-5 poppins-bold">Promotores Pozuelo</h2>
             </div>
-            <div className="row justify-content-around">
+            <div className="row justify-content-evenly">
               {
                 context.PromotoresPozuelo.map((initiative, index) => (
                   <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
@@ -119,7 +119,7 @@ const Home = () => {
           <div className="row">
             <h2 className="text-center mt-5 poppins-bold">Pozuelo Lab</h2>
           </div>
-          <div className="row justify-content-between">
+          <div className="row justify-content-evenly">
             {
               context.PozueloLab.map((initiative, index) => (
                 <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />

@@ -158,6 +158,20 @@ color: $grey
   }
 }
 
+@media screen and (max-width:768px){
+  .navbar {
+    flex-direction: column;
+    height:auto;
+    text-align: center;
+    justify-content: center;
+    backdrop-filter: blur(100px) brightness(180%);
+    background-color: #f7f7f0;
+    & .logo{
+      display: none;
+    }
+  }
+}
+
 .summary {
 
   & .box {
