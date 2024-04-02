@@ -42,6 +42,7 @@ const CounterCard = ({ ...props }) => {
             if (!found) {
                 newList.push({
                     id: props.id,
+                    initiative: props.initiative,
                     channel: props.channel,
                     name: props.country,
                     flag: props.flag,

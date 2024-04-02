@@ -2,7 +2,7 @@
 
 import CounterCard from '../CounterCard/CounterCard'
 
-const ProjectCard = ({ id, name, channel = '', flag = '', budget = 0, amount = 0, render = '' }, { ...props }) => {
+const ProjectCard = ({ id, name, initiative, channel = '', flag = '', budget = 0, amount = 0, render = '' }, { ...props }) => {
 
   return (
     <>
@@ -21,7 +21,7 @@ const ProjectCard = ({ id, name, channel = '', flag = '', budget = 0, amount = 0
             }
           </div>
           {/* Counter */}
-          <CounterCard key={props.id} id={id} channel={channel} amount={amount} budget={budget} country={name} flag={flag} />
+          <CounterCard key={props.id} id={id} channel={channel} amount={amount} budget={budget} country={name} flag={flag} initiative={initiative} />
         </div>
       </div>
 

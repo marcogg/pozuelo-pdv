@@ -45,9 +45,10 @@ const Home = () => {
       <section className="summary mt-5">
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-6 col-md-6 col-8 box">
+            <div className="col-lg-8 col-md-8 col-11 box pt-4">
               <h3 className="text-center poppins-light">Presupuesto Disponible: <span className="poppins-bold">{`$${context.budgetAmount}`}</span></h3>
               <h4 className="text-center poppins-light text-red">Presupuesto Invertido: <span className="poppins-bold">{`$${context.investedAmount}`}</span></h4>
+              {/* Initiative list */}
               <InitiativeList />
             </div>
           </div>
@@ -59,12 +60,12 @@ const Home = () => {
         {/* Punto Pozuelo */}
         <div className="container my-3 py-5">
           <div className="row">
-            <h2 className="text-center mt-5 poppins-bold">Punto Pozuelo</h2>
+            <h2 className="text-center mt-5 poppins-bold title initiative">Punto Pozuelo</h2>
           </div>
           <div className="row justify-content-evenly">
             {
               context.PuntoPozuelo.map((initiative, index) => (
-                <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
+                <ProjectCard key={index} id={initiative.id} initiative={initiative.initiative} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
               )
               )
             }
@@ -74,12 +75,12 @@ const Home = () => {
         <div className='container-full bg-grey pb-5'>
           <div className="container my-3 py-5">
             <div className="row">
-              <h2 className="text-center mt-5 poppins-bold">Descubre Mundo Pozuelo</h2>
+              <h2 className="text-center mt-5 poppins-bold title initiative">Descubre Mundo Pozuelo</h2>
             </div>
             <div className="row justify-content-evenly">
               {
                 context.DescubreMundoPozuelo.map((initiative, index) => (
-                  <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
+                  <ProjectCard key={index} id={initiative.id} initiative={initiative.initiative} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
                 )
                 )
               }
@@ -89,12 +90,12 @@ const Home = () => {
         {/* Pozuelo Sens */}
         <div className="container my-3 py-5">
           <div className="row">
-            <h2 className="text-center mt-5 poppins-bold">Pozuelo Sens</h2>
+            <h2 className="text-center mt-5 poppins-bold title initiative">Pozuelo Sens</h2>
           </div>
           <div className="row justify-content-evenly">
             {
               context.PozueloSens.map((initiative, index) => (
-                <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
+                <ProjectCard key={index} id={initiative.id} initiative={initiative.initiative} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
               )
               )
             }
@@ -104,12 +105,12 @@ const Home = () => {
         <div className='container-full bg-grey pb-5'>
           <div className="container my-3 py-5">
             <div className="row">
-              <h2 className="text-center mt-5 poppins-bold">Promotores Pozuelo</h2>
+              <h2 className="text-center mt-5 poppins-bold title initiative">Promotores Pozuelo</h2>
             </div>
             <div className="row justify-content-evenly">
               {
                 context.PromotoresPozuelo.map((initiative, index) => (
-                  <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
+                  <ProjectCard key={index} id={initiative.id} initiative={initiative.initiative} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
                 )
                 )
               }
@@ -119,12 +120,12 @@ const Home = () => {
         {/* Pozuelo Lab*/}
         <div className="container my-3 py-5 mb-5">
           <div className="row">
-            <h2 className="text-center mt-5 poppins-bold">Pozuelo Lab</h2>
+            <h2 className="text-center mt-5 poppins-bold title initiative">Pozuelo Lab</h2>
           </div>
           <div className="row justify-content-evenly">
             {
               context.PozueloLab.map((initiative, index) => (
-                <ProjectCard key={index} id={initiative.id} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
+                <ProjectCard key={index} id={initiative.id} initiative={initiative.initiative} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
               )
               )
             }

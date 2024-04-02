@@ -3,6 +3,7 @@
         "PuntoPozuelo": [
             {
                 "id": 1,
+                "initiative": "Punto Pozuelo",
                 "channel": "moderno",
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
@@ -12,6 +13,7 @@
             },
             {
                 "id": 2,
+                "initiative": "Punto Pozuelo",
                 "channel": "moderno",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -21,6 +23,7 @@
             },
             {
                 "id": 3,
+                "initiative": "Punto Pozuelo",
                 "channel": "moderno",
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
@@ -30,6 +33,7 @@
             },
             {
                 "id": 4,
+                "initiative": "Punto Pozuelo",
                 "channel": "moderno",
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
@@ -39,6 +43,7 @@
             },
             {
                 "id": 5,
+                "initiative": "Punto Pozuelo",
                 "channel": "tradicional",
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
@@ -48,6 +53,7 @@
             },
             {
                 "id": 6,
+                "initiative": "Punto Pozuelo",
                 "channel": "tradicional",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -57,6 +63,7 @@
             },
             {
                 "id": 7,
+                "initiative": "Punto Pozuelo",
                 "channel": "tradicional",
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
@@ -66,6 +73,7 @@
             },
             {
                 "id": 8,
+                "initiative": "Punto Pozuelo",
                 "channel": "tradicional",
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
@@ -79,6 +87,7 @@
         "DescubreMundoPozuelo": [
             {
                 "id": 9,
+                "initiative": "Descubre Mundo Pozuelo",
                 "channel": "moderno",
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
@@ -88,6 +97,7 @@
             },
             {
                 "id": 10,
+                "initiative": "Descubre Mundo Pozuelo",
                 "channel": "moderno",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -97,6 +107,7 @@
             },
             {
                 "id": 11,
+                "initiative": "Descubre Mundo Pozuelo",
                 "channel": "moderno",
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
@@ -106,6 +117,7 @@
             },
             {
                 "id": 12,
+                "initiative": "Descubre Mundo Pozuelo",
                 "channel": "moderno",
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
@@ -115,6 +127,7 @@
             },
             {
                 "id": 13,
+                "initiative": "Descubre Mundo Pozuelo",
                 "channel": "tradicional",
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
@@ -124,6 +137,7 @@
             },
             {
                 "id": 14,
+                "initiative": "Descubre Mundo Pozuelo",
                 "channel": "tradicional",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -133,6 +147,7 @@
             },
             {
                 "id": 15,
+                "initiative": "Descubre Mundo Pozuelo",
                 "channel": "tradicional",
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
@@ -142,6 +157,7 @@
             },
             {
                 "id": 16,
+                "initiative": "Descubre Mundo Pozuelo",
                 "channel": "tradicional",
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
@@ -155,6 +171,7 @@
         "PozueloSens": [
             {
                 "id": 17,
+                "initiative": "Pozuelo Sens",
                 "channel": "moderno",
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
@@ -164,6 +181,7 @@
             },
             {
                 "id": 18,
+                "initiative": "Pozuelo Sens",
                 "channel": "moderno",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -173,6 +191,7 @@
             },
             {
                 "id": 19,
+                "initiative": "Pozuelo Sens",
                 "channel": "moderno",
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
@@ -182,6 +201,7 @@
             },
             {
                 "id": 20,
+                "initiative": "Pozuelo Sens",
                 "channel": "moderno",
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
@@ -191,6 +211,7 @@
             },
             {
                 "id": 21,
+                "initiative": "Pozuelo Sens",
                 "channel": "tradicional",
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
@@ -200,6 +221,7 @@
             },
             {
                 "id": 22,
+                "initiative": "Pozuelo Sens",
                 "channel": "tradicional",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -209,6 +231,7 @@
             },
             {
                 "id": 23,
+                "initiative": "Pozuelo Sens",
                 "channel": "tradicional",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -218,6 +241,7 @@
             },
             {
                 "id": 24,
+                "initiative": "Pozuelo Sens",
                 "channel": "tradicional",
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
@@ -227,6 +251,7 @@
             },
             {
                 "id": 25,
+                "initiative": "Pozuelo Sens",
                 "channel": "tradicional",
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
@@ -240,6 +265,7 @@
         "PromotoresPozuelo": [
             {
                 "id": 26,
+                "initiative": "Promotores Pozuelo",
                 "channel": "tradicional",
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
@@ -249,6 +275,7 @@
             },
             {
                 "id": 27,
+                "initiative": "Promotores Pozuelo",
                 "channel": "tradicional",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -258,6 +285,7 @@
             },
             {
                 "id": 28,
+                "initiative": "Promotores Pozuelo",
                 "channel": "tradicional",
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
@@ -267,6 +295,7 @@
             },
             {
                 "id": 29,
+                "initiative": "Promotores Pozuelo",
                 "channel": "tradicional",
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
@@ -280,6 +309,7 @@
         "PozueloLab": [
             {
                 "id": 30,
+                "initiative": "Pozuelo Lab",
                 "channel": "moderno",
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
@@ -289,6 +319,7 @@
             },
             {
                 "id": 31,
+                "initiative": "Pozuelo Lab",
                 "channel": "moderno",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -298,6 +329,7 @@
             },
             {
                 "id": 32,
+                "initiative": "Pozuelo Lab",
                 "channel": "moderno",
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
@@ -307,6 +339,7 @@
             },
             {
                 "id": 33,
+                "initiative": "Pozuelo Lab",
                 "channel": "moderno",
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
@@ -316,6 +349,7 @@
             },
             {
                 "id": 34,
+                "initiative": "Pozuelo Lab",
                 "channel": "tradicional",
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
@@ -325,6 +359,7 @@
             },
             {
                 "id": 35,
+                "initiative": "Pozuelo Lab",
                 "channel": "tradicional",
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
@@ -334,6 +369,7 @@
             },
             {
                 "id": 36,
+                "initiative": "Pozuelo Lab",
                 "channel": "tradicional",
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
@@ -343,6 +379,7 @@
             },
             {
                 "id": 37,
+                "initiative": "Pozuelo Lab",
                 "channel": "tradicional",
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",

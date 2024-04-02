@@ -247,5 +247,23 @@ color: $grey
 .initiativeList {
   & .initiative{
     justify-content: space-between;
+    font-size: clamp(10pt, 0.95rem, 15pt);
+    color:$grey
   }
+
+}
+
+.initiative{
+  &.title{
+    font-size: clamp(22pt, 3rem, 32pt)
+}
+}
+
+@media screen and (max-width: 768px) {
+  .initiativeList{
+    & .initiative{
+      font-size: clamp(8pt, 0.75rem, 12pt);
+    }
+  }
+  
 }
