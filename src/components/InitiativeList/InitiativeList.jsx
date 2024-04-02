@@ -20,9 +20,9 @@ const InitiativeList = () => {
                     <div className='row'>
                         <div className='col-12'>
                             <div className='initiative'>
-                                <table className="table">
+                                <table className="table text-center">
                                     {
-                                        selectedElements.length <= 0 ? '' :
+                                        selectedElements.length <= 0 ? 'Selecciona iniciativas para ver el detalle aquí' :
                                             (<thead>
                                                 <tr>
                                                     <th scope="col">Iniciativa</th>
