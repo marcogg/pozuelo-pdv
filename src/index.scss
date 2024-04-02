@@ -242,3 +242,10 @@ color: $grey
   }
 
 }
+
+// Initiative List
+.initiativeList {
+  & .initiative{
+    justify-content: space-between;
+  }
+}

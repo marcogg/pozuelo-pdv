@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import ProjectCard from "../components/ProjectCard/ProjectCard"
 import { useInitiativeContext } from '../context/InitiativesContext'
+import InitiativeList from '../components/InitiativeList/InitiativeList'
 
 const Home = () => {
 
@@ -47,6 +48,7 @@ const Home = () => {
             <div className="col-lg-6 col-md-6 col-8 box">
               <h3 className="text-center poppins-light">Presupuesto Disponible: <span className="poppins-bold">{`$${context.budgetAmount}`}</span></h3>
               <h4 className="text-center poppins-light text-red">Presupuesto Invertido: <span className="poppins-bold">{`$${context.investedAmount}`}</span></h4>
+              <InitiativeList />
             </div>
           </div>
         </div>
