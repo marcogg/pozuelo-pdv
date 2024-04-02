@@ -4,7 +4,7 @@
             {
                 "id": 1,
                 "channel": "moderno",
-                "name": "cr",
+                "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 964,
                 "render": "../pp_moderno.jpg",
@@ -13,7 +13,7 @@
             {
                 "id": 2,
                 "channel": "moderno",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 1610,
                 "render": "../pp_moderno.jpg",
@@ -22,7 +22,7 @@
             {
                 "id": 3,
                 "channel": "moderno",
-                "name": "sv",
+                "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 1610,
                 "render": "../pp_moderno.jpg",
@@ -31,7 +31,7 @@
             {
                 "id": 4,
                 "channel": "moderno",
-                "name": "ni",
+                "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 1610,
                 "render": "../pp_moderno.jpg",
@@ -40,7 +40,7 @@
             {
                 "id": 5,
                 "channel": "tradicional",
-                "name": "cr",
+                "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 420,
                 "render": "../pp_tradicional.jpg",
@@ -49,7 +49,7 @@
             {
                 "id": 6,
                 "channel": "tradicional",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 650,
                 "render": "../pp_tradicional.jpg",
@@ -58,7 +58,7 @@
             {
                 "id": 7,
                 "channel": "tradicional",
-                "name": "sv",
+                "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 650,
                 "render": "../pp_tradicional.jpg",
@@ -67,7 +67,7 @@
             {
                 "id": 8,
                 "channel": "tradicional",
-                "name": "ni",
+                "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 650,
                 "render": "../pp_tradicional.jpg",
@@ -80,7 +80,7 @@
             {
                 "id": 9,
                 "channel": "moderno",
-                "name": "cr",
+                "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 415,
                 "render": "../dmp_moderno.jpg",
@@ -89,7 +89,7 @@
             {
                 "id": 10,
                 "channel": "moderno",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 430,
                 "render": "../dmp_moderno.jpg",
@@ -98,7 +98,7 @@
             {
                 "id": 11,
                 "channel": "moderno",
-                "name": "sv",
+                "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 430,
                 "render": "../dmp_moderno.jpg",
@@ -107,7 +107,7 @@
             {
                 "id": 12,
                 "channel": "moderno",
-                "name": "ni",
+                "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 430,
                 "render": "../dmp_moderno.jpg",
@@ -116,7 +116,7 @@
             {
                 "id": 13,
                 "channel": "tradicional",
-                "name": "cr",
+                "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 260,
                 "render": "../dmp_tradicional.jpg",
@@ -125,7 +125,7 @@
             {
                 "id": 14,
                 "channel": "tradicional",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 275,
                 "render": "../dmp_tradicional.jpg",
@@ -134,7 +134,7 @@
             {
                 "id": 15,
                 "channel": "tradicional",
-                "name": "sv",
+                "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 275,
                 "render": "../dmp_tradicional.jpg",
@@ -143,7 +143,7 @@
             {
                 "id": 16,
                 "channel": "tradicional",
-                "name": "ni",
+                "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 275,
                 "render": "../dmp_tradicional.jpg",
@@ -156,7 +156,7 @@
             {
                 "id": 17,
                 "channel": "moderno",
-                "name": "cr",
+                "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 4200,
                 "render": "../sens_moderno.jpg",
@@ -165,7 +165,7 @@
             {
                 "id": 18,
                 "channel": "moderno",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 5600,
                 "render": "../sens_moderno.jpg",
@@ -174,7 +174,7 @@
             {
                 "id": 19,
                 "channel": "moderno",
-                "name": "sv",
+                "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 5600,
                 "render": "../sens_moderno.jpg",
@@ -183,7 +183,7 @@
             {
                 "id": 20,
                 "channel": "moderno",
-                "name": "ni",
+                "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 5600,
                 "render": "../sens_moderno.jpg",
@@ -192,7 +192,7 @@
             {
                 "id": 21,
                 "channel": "tradicional",
-                "name": "cr",
+                "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 450,
                 "render": "../sens_tradicional.jpg",
@@ -201,7 +201,7 @@
             {
                 "id": 22,
                 "channel": "tradicional",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 480,
                 "render": "../sens_tradicional.jpg",
@@ -210,7 +210,7 @@
             {
                 "id": 23,
                 "channel": "tradicional",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 480,
                 "render": "../sens_tradicional.jpg",
@@ -219,7 +219,7 @@
             {
                 "id": 24,
                 "channel": "tradicional",
-                "name": "sv",
+                "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 480,
                 "render": "../sens_tradicional.jpg",
@@ -228,7 +228,7 @@
             {
                 "id": 25,
                 "channel": "tradicional",
-                "name": "ni",
+                "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 480,
                 "render": "../sens_tradicional.jpg",
@@ -241,7 +241,7 @@
             {
                 "id": 26,
                 "channel": "tradicional",
-                "name": "cr",
+                "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 210,
                 "render": "../promPozuelo_tradicional.jpg",
@@ -250,7 +250,7 @@
             {
                 "id": 27,
                 "channel": "tradicional",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 225,
                 "render": "../promPozuelo_tradicional.jpg",
@@ -259,7 +259,7 @@
             {
                 "id": 28,
                 "channel": "tradicional",
-                "name": "sv",
+                "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 225,
                 "render": "../promPozuelo_tradicional.jpg",
@@ -268,7 +268,7 @@
             {
                 "id": 29,
                 "channel": "tradicional",
-                "name": "ni",
+                "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 225,
                 "render": "../promPozuelo_tradicional.jpg",
@@ -281,7 +281,7 @@
             {
                 "id": 30,
                 "channel": "moderno",
-                "name": "cr",
+                "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 4300,
                 "render": "../pl_moderno.jpg",
@@ -290,7 +290,7 @@
             {
                 "id": 31,
                 "channel": "moderno",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 5700,
                 "render": "../pl_moderno.jpg",
@@ -299,7 +299,7 @@
             {
                 "id": 32,
                 "channel": "moderno",
-                "name": "sv",
+                "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 5700,
                 "render": "../pl_moderno.jpg",
@@ -308,7 +308,7 @@
             {
                 "id": 33,
                 "channel": "moderno",
-                "name": "ni",
+                "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 5700,
                 "render": "../pl_moderno.jpg",
@@ -317,7 +317,7 @@
             {
                 "id": 34,
                 "channel": "tradicional",
-                "name": "cr",
+                "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 2800,
                 "render": "../pl_tradicional.jpg",
@@ -326,7 +326,7 @@
             {
                 "id": 35,
                 "channel": "tradicional",
-                "name": "gt",
+                "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 4000,
                 "render": "../pl_tradicional.jpg",
@@ -335,7 +335,7 @@
             {
                 "id": 36,
                 "channel": "tradicional",
-                "name": "sv",
+                "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 4000,
                 "render": "../pl_tradicional.jpg",
@@ -344,7 +344,7 @@
             {
                 "id": 37,
                 "channel": "tradicional",
-                "name": "ni",
+                "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 4000,
                 "render": "../pl_tradicional.jpg",

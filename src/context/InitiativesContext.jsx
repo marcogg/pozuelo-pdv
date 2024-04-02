@@ -7,6 +7,11 @@ const InitiativeContext = createContext()
 function InitiativesProvider({ ...props }) {
     const [budgetAmount, setBudgetAmount] = useState(74500)
     const [investedAmount, setInvestedAmount] = useState(0)
+
+    const [idNumber, setIdNumber] = useState()
+    const [amount, setAmount] = useState(0)
+
+
     const [selectedElements, setSelectedElements] = useState([])
     const [amountSelectedElements, setAmountSelectedElements] = useState(0)
 
@@ -25,6 +30,11 @@ function InitiativesProvider({ ...props }) {
         setSelectedElements,
         amountSelectedElements,
         setAmountSelectedElements,
+
+        idNumber,
+        setIdNumber,
+        amount,
+        setAmount,
 
         PuntoPozuelo,
         DescubreMundoPozuelo,

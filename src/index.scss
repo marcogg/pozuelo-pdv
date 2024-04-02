@@ -142,6 +142,10 @@ color: $grey
   background:linear-gradient(180deg, #fdf0f0, #f7f7f0)
 }
 
+.container-vh{
+  height: 600px;
+}
+
 .navbar{
   font-size: clamp(16pt, 1.25rem, 19pt);
   background-color: transparent !important;
@@ -151,9 +155,11 @@ color: $grey
     margin-bottom: 0;
     &.available{
       color:grey;
+      font-size: clamp(12pt, 1.25rem, 18pt);
     }
     &.invested{
-      color:$pozueloRed
+      color:$pozueloRed;
+      font-size: clamp(12pt, 1.25rem, 18pt);
     }
   }
 }
@@ -166,8 +172,15 @@ color: $grey
     justify-content: center;
     backdrop-filter: blur(100px) brightness(180%);
     background-color: #f7f7f0;
+    width: 100%;
     & .logo{
-      display: none;
+      max-width:50%;
+      margin: 3vw;
+    }
+    & .budget {
+      &.invested{
+        font-size: clamp(10pt, 1.15rem, 16pt);
+      }
     }
   }
 }

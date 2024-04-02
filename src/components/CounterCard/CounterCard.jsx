@@ -7,6 +7,7 @@ const CounterCard = ({ ...props }) => {
 
     const context = useInitiativeContext()
     let investedAmount = context.investedAmount
+    // let selectedElements = context.selectedElements
 
     let [value, setValue] = useState(0)
 
@@ -23,18 +24,36 @@ const CounterCard = ({ ...props }) => {
         // Value for each card
         setValue(value += 1)
 
-        // Updating checkout list
-        context.setSelectedElements(prevList => [
-            ...prevList,
-            {
-                "id": props.id === prevList.id ? props.amount += 1 : props.id,
-                "channel": props.channel,
-                "name": props.country,
-                "flag": props.flag,
-                "budget": props.budget,
-                "amount": props.amount
-            }])
-        console.log(context.selectedElements)
+        // Updating checkout list ADDING
+        context.setSelectedElements(prevList => {
+            let found = false;
+            const newList = prevList.map(item => {
+                if (item.id === props.id) {
+                    found = true;
+                    return {
+                        ...item,
+                        amount: item.amount + 1
+                    };
+                } else {
+                    return item;
+                }
+            });
+
+            if (!found) {
+                newList.push({
+                    id: props.id,
+                    channel: props.channel,
+                    name: props.country,
+                    flag: props.flag,
+                    budget: props.budget,
+                    amount: props.amount + 1
+                });
+            }
+
+            console.log(newList);
+            return newList;
+        });
+        // console.log(context.selectedElements)
 
 
     }
@@ -48,6 +67,29 @@ const CounterCard = ({ ...props }) => {
 
         // Value for each card
         setValue(value >= 1 ? value -= 1 : value = 0)
+
+        // Updating checkout list FOR MINUS
+        context.setSelectedElements(prevList => {
+            let found = false;
+            const newList = prevList.map(item => {
+                if (item.id === props.id) {
+                    found = true;
+                    return {
+                        ...item,
+                        amount: item.amount >= 1 ? item.amount - 1 : 0
+                    };
+                } else {
+                    return item;
+                }
+            });
+
+            if (!found) {
+                console.log('Selecciona al menos un elemento para eliminarlo')
+            }
+
+            console.log(newList);
+            return newList;
+        });
     }
 
 

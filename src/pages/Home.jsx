@@ -18,8 +18,8 @@ const Home = () => {
             <span className="navbar-toggler-icon" />
           </button> */}
           {/* Budget summary fixed */}
-          <p className="text-center poppins-light budget available">Presupuesto Disponible: <span className="poppins-bold">{`$${context.budgetAmount}`}</span></p>
-          <p className="text-center poppins-light budget invested">Presupuesto Invertido: <span className="poppins-bold">{`$${context.investedAmount}`}</span></p>
+          <p className="text-center poppins-light budget available">💰 Disponible: <span className="poppins-bold">{`$${context.budgetAmount}`}</span></p>
+          <p className="text-center poppins-light budget invested">💸 Invertido: <span className="poppins-bold">{`$${context.investedAmount}`}</span></p>
         </div>
       </nav>
       {/* End: Navigation */}
@@ -27,14 +27,14 @@ const Home = () => {
       <section className="header">
         <div className="container">
           <div className="row justify-content-center mt-5 align-items-center">
-            <div className="col-10 col-md-8 col-lg-8">
+            <div className="col-12 col-md-8 col-lg-8">
               <h1 className="text-center">Controla el presupuesto </h1>
               <h4 className="text-center poppins-light">de las iniciativas Pozuelo en Punto de Venta</h4>
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-4">
-              <img src="../pozuelo-presupuesto.png" className="img-fluid" />
+            <div className="col-12 col-md-4 col-lg-4">
+              <img src="../pozuelo-presupuesto.png" className="img-fluid mt-5" />
             </div>
           </div>
         </div>
