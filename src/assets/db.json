@@ -344,7 +344,7 @@
                 "name": "Costa Rica",
                 "flag": "../flags/cr.svg",
                 "budget": 390,
-                "render": "../dmp_trad_sense.jpg",
+                "render": "../dmpTradSense.jpg",
                 "amount": 0
             },
             {
@@ -354,7 +354,7 @@
                 "name": "Guatemala",
                 "flag": "../flags/gt.svg",
                 "budget": 405,
-                "render": "../dmp_trad_sense.jpg",
+                "render": "../dmpTradSense.jpg",
                 "amount": 0
             },
             {
@@ -364,7 +364,7 @@
                 "name": "El Salvador",
                 "flag": "../flags/sv.svg",
                 "budget": 405,
-                "render": "../dmp_trad_sense.jpg",
+                "render": "../dmpTradSense.jpg",
                 "amount": 0
             },
             {
@@ -374,7 +374,7 @@
                 "name": "Nicaragua",
                 "flag": "../flags/ni.svg",
                 "budget": 405,
-                "render": "../dmp_trad_sense.jpg",
+                "render": "../dmpTradSense.jpg",
                 "amount": 0
             }
         ]
