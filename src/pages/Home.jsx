@@ -87,14 +87,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* Pozuelo Sens */}
+        {/* PP Sens */}
         <div className="container my-3 py-5">
           <div className="row">
-            <h2 className="text-center mt-5 poppins-bold title initiative">Pozuelo Sens</h2>
+            <h2 className="text-center mt-5 poppins-bold title initiative">Punto pozuelo + Sens</h2>
           </div>
           <div className="row justify-content-evenly">
             {
-              context.PozueloSens.map((initiative, index) => (
+              context.PuntoPozueloSens.map((initiative, index) => (
                 <ProjectCard key={index} id={initiative.id} initiative={initiative.initiative} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
               )
               )
@@ -117,14 +117,14 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/* Pozuelo Lab*/}
+        {/* DMP + SENS*/}
         <div className="container my-3 py-5 mb-5">
           <div className="row">
-            <h2 className="text-center mt-5 poppins-bold title initiative">Pozuelo Lab</h2>
+            <h2 className="text-center mt-5 poppins-bold title initiative">Descubre Punto Pozuelo + Sens</h2>
           </div>
           <div className="row justify-content-evenly">
             {
-              context.PozueloLab.map((initiative, index) => (
+              context.DescubreMundoPozueloSens.map((initiative, index) => (
                 <ProjectCard key={index} id={initiative.id} initiative={initiative.initiative} channel={initiative.channel} flag={initiative.flag} budget={initiative.budget} render={initiative.render} amount={initiative.amount} name={initiative.name} />
               )
               )

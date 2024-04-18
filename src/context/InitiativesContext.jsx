@@ -17,9 +17,9 @@ function InitiativesProvider({ ...props }) {
 
     const PuntoPozuelo = initiativesList[0].PuntoPozuelo
     const DescubreMundoPozuelo = initiativesList[1].DescubreMundoPozuelo
-    const PozueloSens = initiativesList[2].PozueloSens
+    const PuntoPozueloSens = initiativesList[2].PuntoPozueloSens
     const PromotoresPozuelo = initiativesList[3].PromotoresPozuelo
-    const PozueloLab = initiativesList[4].PozueloLab
+    const DescubreMundoPozueloSens = initiativesList[4].DescubreMundoPozueloSens
 
     const values = {
         budgetAmount,
@@ -38,9 +38,9 @@ function InitiativesProvider({ ...props }) {
 
         PuntoPozuelo,
         DescubreMundoPozuelo,
-        PozueloSens,
+        PuntoPozueloSens,
         PromotoresPozuelo,
-        PozueloLab
+        DescubreMundoPozueloSens
     }
 
     return (
